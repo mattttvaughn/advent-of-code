@@ -72,8 +72,8 @@ private fun part2(input: List<String>) : Int {
 fun rotateCW(point: List<Int>): MutableList<Int> {
     val flipped = mutableListOf(point[1], point[0])
     when (sign(point[0].toDouble())..sign(point[1].toDouble())) {
-        -1.0..1.0, -1.0..-1.0, 1.0..1.0, 1.0..0.0, -1.0..0.0 -> flipped[1] = -1 * flipped[1]
-        1.0..-1.0 -> flipped[0] = -1 * flipped[0]
+        -1.0..1.0, -1.0..-1.0, 1.0..1.0, 1.0..0.0, -1.0..0.0 -> flipped[1] *= -1
+        1.0..-1.0 -> flipped[0] *= -1
         0.0..0.0, 0.0..-1.0, 0.0..1.0 -> {}
         else -> throw IllegalStateException("Impossible state: $point")
     }
