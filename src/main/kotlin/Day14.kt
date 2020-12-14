@@ -32,28 +32,28 @@ private fun parseProgram(input: List<String>, decoderVersion: Int): Long {
 }
 
 fun mask(value: Int, mask: String): Long {
-    val valueString = Integer.toBinaryString(value).padStart(36, '0')
-    val masked = valueString.zip(mask).map {
-        when (it.second) {
-            'X' -> it.first
-            '1' -> it.second
-            '0' -> it.second
-            else -> throw IllegalStateException("Invalid input: value=$valueString, mask=$mask")
-        }
-    }.joinToString("")
+    val masked = Integer.toBinaryString(value).padStart(36, '0')
+            .zip(mask).map {
+                when (it.second) {
+                    'X' -> it.first
+                    '1' -> it.second
+                    '0' -> it.second
+                    else -> throw IllegalStateException("Invalid input: value=$value, mask=$mask")
+                }
+            }.joinToString("")
     return BigInteger(masked, 2).longValueExact()
 }
 
 fun calcAddrs(addr: Int, mask: String): List<Long> {
-    val addrString = Integer.toBinaryString(addr).padStart(36, '0')
-    val masked = addrString.zip(mask).map {
-        when (it.second) {
-            'X' -> 'X'
-            '1' -> '1'
-            '0' -> it.first
-            else -> throw IllegalStateException("Invalid character: only [X, 1, 0] allowed")
-        }
-    }.toMutableList()
+    val masked = Integer.toBinaryString(addr).padStart(36, '0')
+            .zip(mask).map {
+                when (it.second) {
+                    'X' -> 'X'
+                    '1' -> '1'
+                    '0' -> it.first
+                    else -> throw IllegalStateException("Invalid character: only [X, 1, 0] allowed")
+                }
+            }.toMutableList()
     val addrs = mutableListOf(masked)
     fillXs(addrs)
     return addrs.map { it.joinToString("") }
