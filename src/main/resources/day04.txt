@@ -16,7 +16,7 @@ iyr:2010 pid:214278931 ecl:grn byr:1953
 eyr:2021
 hcl:#733820
 
-iyr:2010 eyr:2020 hcl:#866857
+iyr:2010 eyr:adventofcode.y2020 hcl:#866857
 byr:1934 pid:022785900
 hgt:161cm ecl:oth
 
@@ -46,7 +46,7 @@ cid:337 eyr:2026
 ecl:gry
 
 cid:262 iyr:2016 ecl:hzl hcl:#efcc98
-hgt:159cm eyr:2020 byr:1974
+hgt:159cm eyr:adventofcode.y2020 byr:1974
 pid:520627197
 
 cid:302 eyr:1956 hgt:158cm hcl:#3355a2 pid:282247859
@@ -56,11 +56,11 @@ byr:1979 ecl:gry
 pid:156126542
 eyr:2025
 ecl:amb hcl:#733820 hgt:187cm
-byr:1938 iyr:2020
+byr:1938 iyr:adventofcode.y2020
 
 hcl:#341e13 byr:1952 ecl:blu iyr:2015 cid:230 eyr:2023 hgt:59in pid:955240866
 
-pid:783635907 eyr:2020 hgt:186cm ecl:grn byr:1925 iyr:2013 hcl:#341e13
+pid:783635907 eyr:adventofcode.y2020 hgt:186cm ecl:grn byr:1925 iyr:2013 hcl:#341e13
 
 byr:1921 iyr:2019 eyr:2027 hgt:175cm
 pid:355931973 hcl:#18171d
@@ -138,9 +138,9 @@ hgt:161cm pid:810244270 ecl:gry byr:1930 iyr:2013
 
 byr:1975 pid:7243957480 eyr:2028 hcl:#cfa07d iyr:2019 hgt:184cm ecl:blu
 
-byr:1953 pid:807621409 eyr:2020 iyr:2017 hcl:#ceb3a1 ecl:blu hgt:157cm
+byr:1953 pid:807621409 eyr:adventofcode.y2020 iyr:2017 hcl:#ceb3a1 ecl:blu hgt:157cm
 
-pid:976089116 byr:1920 eyr:2020 iyr:2011 hcl:#733820 hgt:166cm cid:330
+pid:976089116 byr:1920 eyr:adventofcode.y2020 iyr:2011 hcl:#733820 hgt:166cm cid:330
 
 pid:896621814 hgt:179cm ecl:blu
 eyr:2027
@@ -159,7 +159,7 @@ eyr:2029
 hgt:171cm iyr:2019 hcl:#e9317f byr:1926
 ecl:gry
 
-eyr:2020
+eyr:adventofcode.y2020
 cid:260 hgt:155cm iyr:2011
 byr:1948 hcl:#602927 pid:651156700
 
@@ -182,7 +182,7 @@ iyr:2019 hcl:#c0946f hgt:165cm pid:904275084 byr:1997
 pid:382971064 byr:1932 cid:77 iyr:2010 hgt:158cm ecl:brn
 eyr:2027 hcl:#602927
 
-hgt:156cm eyr:2028 pid:249987568 iyr:2020
+hgt:156cm eyr:2028 pid:249987568 iyr:adventofcode.y2020
 byr:1956
 ecl:grn hcl:#fffffd
 
@@ -193,11 +193,11 @@ eyr:2023
 hgt:192cm iyr:2012 hcl:#b62955
 
 eyr:2022 hgt:191cm pid:699194379
-hcl:#f0a94b iyr:2020 byr:1996
+hcl:#f0a94b iyr:adventofcode.y2020 byr:1996
 ecl:gry
 
 ecl:brn hgt:69in
-pid:368841807 byr:1971 eyr:2020 iyr:2020
+pid:368841807 byr:1971 eyr:adventofcode.y2020 iyr:adventofcode.y2020
 hcl:498a57
 
 hcl:#cfa07d
@@ -253,7 +253,7 @@ eyr:2023 pid:108222056
 hcl:#c0946f iyr:2012 hgt:71in ecl:grn
 
 byr:1955 hcl:#a97842 ecl:blu
-eyr:2020 pid:164459538
+eyr:adventofcode.y2020 pid:164459538
 iyr:2018 hgt:175cm
 
 byr:1950
@@ -293,7 +293,7 @@ hcl:#efcc98 eyr:2021
 pid:041801541 ecl:brn
 hgt:184cm iyr:2013 hcl:#6b5442
 byr:1969
-eyr:2020
+eyr:adventofcode.y2020
 
 ecl:oth pid:314689468
 hcl:#fffffd byr:1934
@@ -333,10 +333,10 @@ byr:1949 hgt:191cm hcl:#18171d iyr:2015
 
 hcl:#3fd612 eyr:2025 byr:1981 ecl:gry hgt:184cm iyr:2010
 
-byr:1969 ecl:amb pid:770110016 iyr:2012 hgt:193cm hcl:#7d3b0c eyr:2020 cid:171
+byr:1969 ecl:amb pid:770110016 iyr:2012 hgt:193cm hcl:#7d3b0c eyr:adventofcode.y2020 cid:171
 
 byr:1937
-hgt:162cm iyr:2020 ecl:blu hcl:#866857 eyr:2020
+hgt:162cm iyr:adventofcode.y2020 ecl:blu hcl:#866857 eyr:adventofcode.y2020
 pid:057170032
 
 pid:516772675 iyr:2018
@@ -366,12 +366,12 @@ ecl:gry
 
 hgt:165cm ecl:hzl
 pid:851962288 eyr:2023
-iyr:2020 hcl:#888785 byr:1981
+iyr:adventofcode.y2020 hcl:#888785 byr:1981
 
 hgt:170cm
 hcl:#7d3b0c pid:897882367
 cid:207 ecl:hzl eyr:2030
-iyr:2020
+iyr:adventofcode.y2020
 
 iyr:2014 hcl:#623a2f
 hgt:176cm eyr:2030
@@ -402,10 +402,10 @@ iyr:2014
 
 byr:1932
 ecl:amb
-hgt:188cm eyr:2020 pid:29447176 iyr:1947 hcl:#a6304b
+hgt:188cm eyr:adventofcode.y2020 pid:29447176 iyr:1947 hcl:#a6304b
 
 byr:1980
-hcl:#733820 pid:800459957 hgt:191cm eyr:2020 cid:337 iyr:2010
+hcl:#733820 pid:800459957 hgt:191cm eyr:adventofcode.y2020 cid:337 iyr:2010
 
 eyr:2029 hgt:155cm byr:1994 hcl:#6b5442 ecl:grn iyr:2010 pid:978117883
 
@@ -428,7 +428,7 @@ eyr:2029
 hcl:#7d3b0c cid:88
 
 byr:1936
-hcl:#6b5442 eyr:2020 cid:272 pid:752699834 iyr:2015 hgt:190cm
+hcl:#6b5442 eyr:adventofcode.y2020 cid:272 pid:752699834 iyr:2015 hgt:190cm
 ecl:grn
 
 cid:85 iyr:2018 eyr:2025 ecl:hzl hgt:192cm byr:1996 pid:478812793 hcl:#602927
@@ -462,7 +462,7 @@ pid:769266043 hcl:#006f93 iyr:2015
 hgt:154cm
 eyr:2022 pid:516617153
 ecl:amb byr:1993
-iyr:2020
+iyr:adventofcode.y2020
 hcl:#341e13
 
 hcl:#b6652a
@@ -494,14 +494,14 @@ eyr:2033 cid:288 byr:1951
 ecl:zzz iyr:1962 hcl:#cfa07d
 hgt:72cm
 
-cid:238 hgt:162cm eyr:2020 byr:1995
+cid:238 hgt:162cm eyr:adventofcode.y2020 byr:1995
 ecl:amb iyr:2010 pid:700982289
 
 iyr:2010
 pid:741394760 ecl:blu eyr:2030
 byr:1934 hgt:68in hcl:#fffffd
 
-pid:434939593 iyr:2020 hcl:#cfa07d cid:282 hgt:168cm
+pid:434939593 iyr:adventofcode.y2020 hcl:#cfa07d cid:282 hgt:168cm
 ecl:blu byr:1939
 
 hgt:154cm byr:1981
@@ -516,7 +516,7 @@ byr:1968 eyr:2029 hgt:152cm pid:347204193 ecl:brn
 ecl:hzl
 pid:975616547
 hgt:166cm
-iyr:2015 hcl:#efcc98 eyr:2020
+iyr:2015 hcl:#efcc98 eyr:adventofcode.y2020
 byr:1927
 
 byr:1960 cid:309 eyr:2022
@@ -527,7 +527,7 @@ hgt:165cm ecl:hzl pid:776872855 byr:1923
 cid:313 eyr:2029
 
 eyr:2021 hcl:#18171d
-byr:1938 hgt:160cm iyr:2020
+byr:1938 hgt:160cm iyr:adventofcode.y2020
 pid:938987284 ecl:gry
 
 iyr:2011
@@ -540,7 +540,7 @@ ecl:grn hcl:#888785 pid:852102448 hgt:150cm eyr:2024
 iyr:2018
 
 byr:1997 cid:201 ecl:gry
-eyr:2020
+eyr:adventofcode.y2020
 hgt:163cm hcl:#7d3b0c
 iyr:2011 pid:052314445
 
@@ -566,7 +566,7 @@ hcl:#2b965f eyr:2025 hgt:154cm
 byr:2001 ecl:hzl
 iyr:2011
 
-iyr:2020
+iyr:adventofcode.y2020
 cid:212
 ecl:gry hgt:174cm
 byr:1939
@@ -594,14 +594,14 @@ byr:1985 cid:131
 hgt:191cm hcl:#6b5442 pid:957166785 iyr:2018 eyr:2029
 
 pid:741921163 hgt:192cm byr:1982
-iyr:2012 ecl:blu hcl:#623a2f eyr:2020
+iyr:2012 ecl:blu hcl:#623a2f eyr:adventofcode.y2020
 
 byr:1995 hgt:164cm eyr:2027 ecl:gry pid:086846266 hcl:#ceb3a1
 iyr:2017
 
 ecl:brn
 hcl:#c0946f hgt:158cm
-eyr:2020
+eyr:adventofcode.y2020
 pid:548013549 cid:107
 iyr:2014 byr:1966
 
@@ -612,9 +612,9 @@ byr:1923 hcl:#fffffd
 hgt:185cm pid:216803187
 ecl:amb
 eyr:2030
-iyr:2020 cid:153
+iyr:adventofcode.y2020 cid:153
 
-pid:129687562 hgt:156cm eyr:2020 cid:336 byr:1964 hcl:#733820
+pid:129687562 hgt:156cm eyr:adventofcode.y2020 cid:336 byr:1964 hcl:#733820
 iyr:2011
 ecl:gry
 
@@ -651,18 +651,18 @@ byr:1924
 hgt:191cm
 pid:130883621 iyr:2010 eyr:2028
 
-byr:2001 hgt:185cm ecl:blu eyr:2020 iyr:2013 hcl:#888785
+byr:2001 hgt:185cm ecl:blu eyr:adventofcode.y2020 iyr:2013 hcl:#888785
 
 pid:043166927 cid:287 hgt:179cm iyr:2016 eyr:2021 byr:1960 ecl:amb hcl:#888785
 
-ecl:oth iyr:2020 hgt:183cm
+ecl:oth iyr:adventofcode.y2020 hgt:183cm
 hcl:#fffffd byr:2013 eyr:2026 pid:042844334
 
 pid:36857936 byr:1995 ecl:hzl hcl:#c0946f eyr:2025 hgt:162cm iyr:2011
 
 iyr:2013 ecl:blu cid:92 byr:1946 pid:150720364 hcl:#7d3b0c hgt:180cm eyr:2027
 
-cid:276 eyr:2020 iyr:2011 hgt:59in hcl:#6b5442 ecl:amb byr:1992
+cid:276 eyr:adventofcode.y2020 iyr:2011 hgt:59in hcl:#6b5442 ecl:amb byr:1992
 pid:137604720
 
 byr:1998 pid:239200796 hcl:#957b4b hgt:171cm iyr:2011
@@ -683,10 +683,10 @@ hcl:#7d3b0c ecl:blu eyr:2022
 hgt:160cm iyr:2019
 
 cid:54
-pid:314873473 iyr:2013 eyr:2020 hcl:#c0946f hgt:158cm ecl:amb
+pid:314873473 iyr:2013 eyr:adventofcode.y2020 hcl:#c0946f hgt:158cm ecl:amb
 
 iyr:2016 ecl:oth hcl:#fffffd
-hgt:189cm eyr:2020
+hgt:189cm eyr:adventofcode.y2020
 
 byr:1981
 hgt:163cm
@@ -701,15 +701,15 @@ eyr:2023 hcl:#c0946f iyr:1966 pid:544377825
 byr:1938
 
 cid:170 hcl:#733820
-iyr:2020 byr:1970 hgt:150cm pid:469096877
-eyr:2020
+iyr:adventofcode.y2020 byr:1970 hgt:150cm pid:469096877
+eyr:adventofcode.y2020
 
 pid:144977701 hgt:180cm byr:1975 hcl:#cfa07d
 ecl:oth cid:57 eyr:2022 iyr:2016
 
 pid:591688826 hgt:156cm hcl:#a97842
 ecl:amb iyr:2011 byr:1955
-eyr:2020
+eyr:adventofcode.y2020
 
 hcl:#a97842 hgt:174cm
 iyr:2012 eyr:2024 pid:928395919 ecl:blu byr:1927
@@ -738,7 +738,7 @@ pid:927969731 byr:1939
 eyr:2025 ecl:grn
 hcl:#fffffd
 
-byr:1943 hgt:191cm ecl:hzl pid:422579553 iyr:2017 eyr:2020 hcl:#c2a152
+byr:1943 hgt:191cm ecl:hzl pid:422579553 iyr:2017 eyr:adventofcode.y2020 hcl:#c2a152
 
 eyr:2028 byr:1952
 pid:506339509 hcl:#602927 hgt:179cm
@@ -786,7 +786,7 @@ eyr:2022 byr:1975 hcl:#888785 hgt:165cm
 cid:166 ecl:brn iyr:2013
 pid:261135534
 
-byr:1999 cid:222 iyr:2020 ecl:hzl hgt:182cm pid:411279683 hcl:#1ca912
+byr:1999 cid:222 iyr:adventofcode.y2020 ecl:hzl hgt:182cm pid:411279683 hcl:#1ca912
 
 byr:1954 cid:273 ecl:#915d48
 pid:004261180 hcl:#cfa07d iyr:2018 hgt:167cm eyr:2021
@@ -801,11 +801,11 @@ iyr:2016 ecl:blu byr:1951
 hgt:155cm
 pid:293590926
 hcl:#602927 eyr:2027 byr:1959
-iyr:2020
+iyr:adventofcode.y2020
 ecl:amb
 
 ecl:oth hcl:#fffffd
-pid:469517546 eyr:2026 iyr:2020 hgt:181cm
+pid:469517546 eyr:2026 iyr:adventofcode.y2020 hgt:181cm
 byr:1929
 
 eyr:2026 iyr:2015 ecl:grn pid:644263519
@@ -864,12 +864,12 @@ hcl:#7d3b0c ecl:oth iyr:2011 hgt:157cm eyr:2023
 
 ecl:oth
 pid:255405447
-eyr:2021 cid:130 hcl:#b6652a hgt:75in iyr:2020 byr:1959
+eyr:2021 cid:130 hcl:#b6652a hgt:75in iyr:adventofcode.y2020 byr:1959
 
 cid:124
 pid:353288807 hcl:#7d3b0c
-byr:1963 eyr:2020 ecl:oth
-iyr:2020
+byr:1963 eyr:adventofcode.y2020 ecl:oth
+iyr:adventofcode.y2020
 hgt:66in
 
 hgt:150cm
@@ -884,7 +884,7 @@ iyr:2010
 cid:170 hgt:175cm
 eyr:2028
 pid:620159472
-iyr:2020 hcl:#7d3b0c ecl:brn
+iyr:adventofcode.y2020 hcl:#7d3b0c ecl:brn
 byr:1939
 
 iyr:2019 hgt:161cm cid:152 ecl:brn hcl:#fffffd
@@ -937,7 +937,7 @@ ecl:oth eyr:2028 hgt:177cm
 hcl:#6b5442
 pid:494763488 iyr:2015 cid:293
 
-ecl:oth hcl:#fffffd hgt:188cm cid:252 pid:987529683 iyr:2020 byr:1945
+ecl:oth hcl:#fffffd hgt:188cm cid:252 pid:987529683 iyr:adventofcode.y2020 byr:1945
 
 eyr:2029
 pid:745721513
@@ -958,14 +958,14 @@ byr:1928 hcl:#341e13 eyr:2028
 cid:176 iyr:2011
 
 hgt:72in byr:1964 hcl:#ceb3a1 ecl:gry
-iyr:2020 eyr:2028
+iyr:adventofcode.y2020 eyr:2028
 cid:180
 
 iyr:2025 byr:1999
 eyr:2024 hcl:#c0946f
 hgt:86
 
-eyr:2023 byr:1974 pid:067761346 cid:178 ecl:hzl iyr:2020 hgt:168cm hcl:#6b5442
+eyr:2023 byr:1974 pid:067761346 cid:178 ecl:hzl iyr:adventofcode.y2020 hgt:168cm hcl:#6b5442
 
 hgt:157cm ecl:gry eyr:2025
 pid:803912278 byr:1963 iyr:2011 hcl:#ceb3a1
@@ -983,7 +983,7 @@ eyr:2021
 pid:228596339
 byr:1974
 ecl:blu
-hgt:174in iyr:2020
+hgt:174in iyr:adventofcode.y2020
 hcl:#733820
 
 ecl:amb hgt:165cm
