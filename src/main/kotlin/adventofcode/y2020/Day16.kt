@@ -6,17 +6,22 @@ class Day16(val input: List<String>) : Day {
 
     private val rangeRegex = "\\d+-\\d+".toRegex()
 
-    private val rules = input.subList(0, input.indexOfFirst { it.isBlank() }).map { line ->
-        val split = line.split(": ")
-        val fieldName = split[0]
-        val ranges = split[1].split(" or ").map {
-            val innerSplit = it.split("-")
-            innerSplit[0].toInt()..innerSplit[1].toInt()
-        }
-        fieldName to ranges
-    }
+    private val myTicket = input[input.indexOf("your ticket:") + 1]
+        .split(",")
+        .map { it.toInt() }
 
-    private val ranges = input.subList(0, input.indexOfFirst { it.isBlank() })
+    private val rules = input.take(input.indexOfFirst { it.isBlank() })
+        .map { line ->
+            val split = line.split(": ")
+            val fieldName = split[0]
+            val ranges = split[1].split(" or ").map {
+                val innerSplit = it.split("-")
+                innerSplit[0].toInt()..innerSplit[1].toInt()
+            }
+            fieldName to ranges
+        }
+
+    private val validValues = input.take(input.indexOfFirst { it.isBlank() })
         .flatMap { line ->
             rangeRegex.findAll(line).flatMap { rangeResult ->
                 rangeResult.groupValues.map {
@@ -24,23 +29,18 @@ class Day16(val input: List<String>) : Day {
                     split[0].toInt()..split[1].toInt()
                 }
             }.toList()
+        }.flatMap { validRange ->
+            validRange.map { it }
+        }.toHashSet()
+
+    private val nearbyTickets = input.drop(input.indexOf("nearby tickets:") + 1)
+        .map { ticket ->
+            ticket.split(",").map { it.toInt() }
         }
 
-    private val myTicket = input[input.indexOf("your ticket:") + 1]
-        .split(",")
-        .map { it.toInt() }
-
-    private val nearbyTickets = input.subList(input.indexOf("nearby tickets:") + 1, input.size).map { ticket ->
-        ticket.split(",").map { it.toInt() }
-    }
-
-    private val validValues = ranges.flatMap { validRange ->
-        validRange.map { it }
-    }.toHashSet()
-
     // Find all invalid values in nearby tickets, sum them
-    override fun part1() = nearbyTickets.sumBy { someTicket ->
-        someTicket.sumBy {
+    override fun part1() = nearbyTickets.sumBy { ticket ->
+        ticket.sumBy {
             if (it !in validValues) it else 0
         }
     }
