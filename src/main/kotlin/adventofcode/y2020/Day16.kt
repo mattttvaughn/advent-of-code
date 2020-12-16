@@ -34,60 +34,50 @@ class Day16(val input: List<String>) : Day {
         }.toHashSet()
 
     private val nearbyTickets = input.drop(input.indexOf("nearby tickets:") + 1)
-        .map { ticket ->
-            ticket.split(",").map { it.toInt() }
-        }
+        .map { ticket -> ticket.split(",").map { it.toInt() } }
 
     // Find all invalid values in nearby tickets, sum them
-    override fun part1() = nearbyTickets.sumBy { ticket ->
-        ticket.sumBy {
-            if (it !in validValues) it else 0
-        }
-    }
+    override fun part1() = nearbyTickets.flatMap { ticket ->
+        ticket.map { if (it !in validValues) it else 0 }
+    }.sum()
 
     override fun part2(): Any {
-        // Map from each index in field to a set of all possible tags
-        val possibleFields = mutableMapOf<Int, MutableSet<String>>()
-        val allFields = rules.map { it.first }
-
         // Initialize any tag possible at any index/col
-        rules.forEachIndexed { idx: Int, _: Any ->
-            possibleFields[idx] = HashSet(allFields)
-        }
+        val possibleFields = myTicket.map { rules.map { it.first }.toMutableSet() }
 
         // Ignore totally invalid tickets
         nearbyTickets.filter { someTicket ->
             someTicket.all { it in validValues }
         }.forEach { nearbyTicket ->
-            rules.forEach { rule: Pair<String, List<IntRange>> ->
-                // Remove tags for an index when the tag's rule is broken
-                nearbyTicket.forEachIndexed { fieldIdx: Int, fieldValue: Int ->
+            // Remove tag for indices where rule is broken
+            nearbyTicket.forEachIndexed { fieldIdx, fieldValue ->
+                rules.forEach { rule ->
                     if (rule.second.all { fieldValue !in it }) {
-                        possibleFields[fieldIdx]?.remove(rule.first)
+                        possibleFields[fieldIdx].remove(rule.first)
                     }
                 }
             }
         }
 
         // Could potentially exit early but no need tbh
-        for (x in 0 until possibleFields.size) {
-            possibleFields.values.filter { it.size == 1 }.map {
+        while (possibleFields.any { it.size != 1 }) {
+            possibleFields.filter { it.size == 1 }.map {
                 it.first()
             }.forEach {
                 possibleFields.forEach { field ->
-                    if (field.value.size != 1) {
-                        field.value.remove(it)
+                    if (field.size != 1) {
+                        field.remove(it)
                     }
                 }
             }
         }
 
-        val departureIndices = possibleFields.mapNotNull {
-            if (it.value.first().startsWith("departure")) it.key else null
+        val departureIndices = possibleFields.mapIndexedNotNull { idx, fields ->
+            if (fields.first().startsWith("departure")) idx else null
         }
-        return myTicket.filterIndexed { idx: Int, _: Int ->
+        return myTicket.filterIndexed { idx, _ ->
             idx in departureIndices
-        }.fold(1L) { acc: Long, i: Int -> acc * i }
+        }.fold(1L) { acc, i -> acc * i }
     }
 }
 
