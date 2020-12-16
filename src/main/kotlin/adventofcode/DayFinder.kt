@@ -4,7 +4,7 @@ import org.reflections.Reflections
 import kotlin.reflect.KFunction
 import kotlin.reflect.full.primaryConstructor
 
-object Reflect {
+object DayFinder {
 
     const val ALL_YEARS = -1
     val dayRegex = "Day\\d{1,2}".toRegex()

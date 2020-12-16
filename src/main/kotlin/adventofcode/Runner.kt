@@ -29,15 +29,15 @@ fun main(args: Array<String>) {
         yearMatch != null -> {
             // Run all programs in a given year
             val year = yearMatch.toInt()
-            Reflect.findDays(year = year)
+            DayFinder.findDays(year = year)
         }
         args.any { it.contains("all") } -> {
             // Run program for all days
-            Reflect.findDays()
+            DayFinder.findDays()
         }
         else -> {
             // Run the most recent program
-            listOf(Reflect.findDays().last())
+            listOf(DayFinder.findDays().last())
         }
     }
     printGridRow(
