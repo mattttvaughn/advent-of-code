@@ -9,7 +9,7 @@ class Day08(val input: List<String>): Day {
 
     override fun part2(): Long {
         for (lineNumber in input.indices) {
-            val edited = mutableListOf<String>().apply { addAll(input) }
+            val edited = ArrayList<String>(input)
             val line = edited[lineNumber]
             edited[lineNumber] = when {
                 line.contains("nop") -> line.replace("nop", "jmp")
