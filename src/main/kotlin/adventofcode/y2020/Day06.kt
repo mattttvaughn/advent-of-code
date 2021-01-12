@@ -1,19 +1,21 @@
 package adventofcode.y2020
 
 import adventofcode.Day
+import java.io.File
 
 class Day06(val input: List<String>) : Day {
 
-    override fun part1() = input.fold(0) { acc, group ->
-        acc + group.replace("\n", "").toSortedSet().size
-    }
-
-    override fun part2() = input.fold(0) { acc, group ->
-        val freqMap = mutableMapOf<Char, Int>()
-        val groupSize = group.count { it == '\n' } + 1
-        group.replace("\n", "").forEach {
-            freqMap[it] = freqMap.getOrElse(it) { 0 } + 1
+    val groups = File("src/main/resources/day06.txt").readText()
+        .split(System.lineSeparator().repeat(2))
+        .map { group ->
+            group.lines().size to group.replace(
+                System.lineSeparator(), ""
+            )
         }
-        acc + freqMap.count { it.value == groupSize }
+
+    override fun part1() = groups.sumBy { it.second.toSet().size }
+
+    override fun part2() = groups.sumBy { (groupSize, answers) ->
+        answers.groupBy { it }.count { it.value.size == groupSize }
     }
 }
