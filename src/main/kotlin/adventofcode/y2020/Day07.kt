@@ -41,7 +41,7 @@ class Day07(val input: List<String>): Day {
     }
 
     private val bags = combined()
-    override fun part1() = bags.size
+    override fun part1() = bags.size - 1
     override fun part2() = containsCount(map, "shiny gold bag") - 1
 
     /** Recursively find all bags contained within [bag] */
